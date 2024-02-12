@@ -8,6 +8,9 @@ Welcome to the world of Realtime Digital Filter Design, where you can craft cust
 
 Realtime Digital Filter Design offers a comprehensive toolkit for designing digital filters, allowing users to visualize and modify filter characteristics in real-time. From plotting the z-plane to analyzing frequency responses, this application provides a seamless interface for exploring and fine-tuning digital filters.
 
+## Preview
+![Animation Gif](Demo.gif)
+
 ## Features
 
 - ### Z-Plane Playground
@@ -26,33 +29,42 @@ Realtime Digital Filter Design offers a comprehensive toolkit for designing digi
 - ### Phase Correction
   Fine-tune filter responses by adding All-Pass filters to correct phase distortions. Choose from a library of pre-defined All-Pass filters or create custom solutions to address specific requirements.
 
-## Getting Started
+## Usage
 
-To start designing digital filters with Realtime Digital Filter Design, follow these simple steps:
+1. Upon launching the application, you will see the main window with options to design filters.
 
-1. Install the application on your desktop.
-2. Launch the application and familiarize yourself with the interface.
-3. Begin by plotting zeros and poles on the z-plane to design your custom filter.
-4. Analyze the frequency response to evaluate filter performance.
-5. Apply the filter to real-time signals and observe the impact on signal processing.
+2. The GUI consists of tabs for different functionalities:
+   - **Filter Design**: Place zeros and poles in the complex plane.
+   - **Filter Visualization**: Visualize the frequency response of the designed filter.
+   - **Signal Visualization**: Load or compose a signal and visualize its original and filtered versions.
 
-## Demo
+3. Design Filters:
+   - Choose the type of filter (Zeros or Poles) and drag symbols to place them on the complex plane.
+   - Use the "Drag Symbol" mode to move symbols around.
+   - Delete symbols by selecting the "Delete Symbol" mode and clicking on the symbol.
 
-For a demonstration of Realtime Digital Filter Design in action, check out our demo video to see how you can design, analyze, and apply digital filters with ease.
+4. Filter Visualization:
+   - Select the filter type and view its magnitude and phase response.
+
+5. Signal Visualization:
+   - Load a signal file and observe its original and filtered versions.
+
+6. Adjust playback speed using the slider provided.
+
 
 ## Contributors
 
 Gratitude goes out to all team members for their valuable contributions to this project.
 
 <div align="left">
+    <a href="https://github.com/AhmeddEmad7">
+    <img src="https://github.com/AhmeddEmad7.png" width="100px" alt="@AhmeddEmad7">
+  </a>
   <a href="https://github.com/hazemzakariasaad">
     <img src="https://github.com/hazemzakariasaad.png" width="100px" alt="@hazemzakariasaad">
   </a>
   <a href="https://github.com/nourhan-ahmedd">
     <img src="https://github.com/nourhan-ahmedd.png" width="100px" alt="@nourhan-ahmedd">
-  </a>
-  <a href="https://github.com/AhmeddEmad7">
-    <img src="https://github.com/AhmeddEmad7.png" width="100px" alt="@AhmeddEmad7">
   </a>
   <a href="https://github.com/raghdaneiazyy6">
     <img src="https://github.com/raghdaneiazyy6.png" width="100px" alt="@raghdaneiazy6">
